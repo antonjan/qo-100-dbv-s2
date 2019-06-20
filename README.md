@@ -4,8 +4,10 @@ This Repository will have all my Code to Decode QO-100  Eshail-2 DBV-S2 Satellit
 This Project has working script for the different Bit rates.
 
 250K,333K,500K and 2M bit rate<br>
-Chnaging the *-sr 2000e3 parameter*<br>
-Changing the *-f 742307200* to adjust to center frequency using *--gui* flag to see spectrum<br>
+Changing the *-sr 2000e3 parameter* for your bitrate as seen on  the https://eshail.batc.org.uk/wb// page.<br>
+Changing the *-f 742307200* to adjust to center frequency to be in the middel using *--gui* flag to see spectrum<br>
+Remove the *--guid* when you have the frequency senterd as it uses too much CPU if you have a slow PC or Laptop<br>
+Example of 2M Beacon decoder.<br>
 ```
 rx_sdr -f 742307200 -g 19 -s 2400000 - |./leandvb --inpipe 32000000 --nhelpers 6 --sr 2000e3 --sampler rrc --rrc-rej 30 --standard DVB-S2 --ldpc-helper ldpc_tool -v -d | vlc -<br>
 ```
