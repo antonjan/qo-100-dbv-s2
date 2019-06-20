@@ -73,17 +73,26 @@ rx_sdr -f 742307200 -g 19 -s 2400000 - |./leandvb --inpipe 32000000 --nhelpers 6
 ```
 
 # Hardware required.
+Please note all the hardware is avalable from Giga Technology http://www.giga.co.za<br>
 Linux (Ubuntu)<br>
 MSI (MSI chipset rtl dongle 12bit 10Mhz sampleing<br>
-Power inhector  for LNB<br>
+Power injector  for LNB<br>
+18V Powersupply
 1.2M dish preferd to get proper Signal to noise ration to get stable reception.<br>
+LNB and coaxle cable with connectors.
 
-# Screen Shots of some of the decoded Video's
+# Screen Shots of some of the decoded Video's.
 RC Rate 250K
 ![Alt text](qo-100_dbv_1.png?raw=true "DBV-S2")<br>
 RC rate 333K<br>
 ![Alt text](qo-100_dbv_2.png?raw=true "DBV-S2")<br>
 RC Rate 2M (This mite not work depending on the avalable CPU you have avalable on the PC or LAPTOP<br>
 ![Alt text](qo-100_dbv_3.png?raw=true "DBV-S2")<br>
+
+# Possible problems.
+ldpc_tool is not in apps directory.<br>
+Signal to Noise is at least 7-8db (S/N)<br>
+Laptop or PC do not have enough CPU available.<br>
+Disable --uuid and pre processing options to reduce CPU usage<br>
 
 
