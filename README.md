@@ -48,7 +48,8 @@ cp -R ../../test/ldpc_tool ./<br>
 There should now be an ldpc_tool directory in the leansdr/src/app/ directory<br>
 We are now ready to start testing.<br>
 
-# Exsample of testing signal
+# Exsample of testing signal.
+<b>Please make sure you have at least 7 to 8 db S/N (signal to Noise signal of the DVB signal)</b><br>
 ```
 rx_sdr -f 742307200 -g 19 -s 2400000 - |./leandvb --inpipe 32000000 --nhelpers 6 --sr 2000e3 --sampler rrc --rrc-rej 30 --standard DVB-S2 --ldpc-helper ldpc_tool -v -d | vlc -
 ```
