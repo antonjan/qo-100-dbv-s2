@@ -1,7 +1,12 @@
 # qo-100-dbv-s2
 This Repository will have all my Code to Decode QO-100  Eshail-2 DBV-S2 Satellite TV signals<br>
 # Project Status
-This Project has working script for the difren Bit rates.
+This Project has working script for the different Bit rates.
+
+250K,333K,500K and 2M bit rate<br>
+Chnaging the *-sr 2000e3 parameter*<br>
+Changing the *-f 742307200* to adjust to center frequency using *--gui* flag to see spectrum<br>
+*rx_sdr -f 742307200 -g 19 -s 2400000 - |./leandvb --inpipe 32000000 --nhelpers 6 --sr 2000e3 --sampler rrc --rrc-rej 30 --standard DVB-S2 --ldpc-helper ldpc_tool -v -d | vlc -*<br>
 # Software Installation procedure.
 <b>Dependency software</b><br>
 Download the Leansdr from github https://github.com/pabr/leansdr.git<br>
