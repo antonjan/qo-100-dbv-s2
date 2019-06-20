@@ -10,8 +10,8 @@ Download and install the rsp_tcp server not neseitie but handy when testing  htt
 Download and install GQRX follow the instructions here http://gqrx.dk/download/install-ubuntu<br>
 <b>DVB-S2 Software</b><br>
 Install VLC sudo apt-get install vlc<br>
-'''git clone http://github.com/pabr/leansdr.git'''<br>
-'''cd leansdr/src/apps'''<br>
+>git clone http://github.com/pabr/leansdr.git<br>
+>cd leansdr/src/apps'''<br>
 vi Makefile  # For DVB-S2, find and uncomment LEANSDR_EXTENSIONS<br>
 make<br>
 Set the buffer size<br>
