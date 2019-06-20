@@ -52,11 +52,11 @@ Power inhector  for LNB<br>
 1.2M dish preferd to get proper Signal to noise ration to get stable reception.<br>
 
 # Screen Shots of some of the decoded Video's
-RC Rate 125K
+RC Rate 250K
 ![Alt text](qo-100_dbv_1.png?raw=true "DBV-S2")<br>
 RC rate 333K<br>
 ![Alt text](qo-100_dbv_2.png?raw=true "DBV-S2")<br>
-RC Rate 2M<br>
+RC Rate 2M (This mite not work depending on the avalable CPU you have avalable on the PC or LAPTOP<br>
 ![Alt text](qo-100_dbv_3.png?raw=true "DBV-S2")<br>
 
 
