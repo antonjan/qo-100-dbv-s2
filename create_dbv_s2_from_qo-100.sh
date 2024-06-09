@@ -14,9 +14,9 @@ rx_sdr -f 742307200 -g 19 -s 2400000 - |./leandvb --inpipe 32000000 --nhelpers 6
 #rx_sdr -f 746007200 -g 19 -s 2400000 - |./leandvb --gui --inpipe 32000000 --nhelpers 6 --sr 500e3 --sampler rrc --rrc-rej 30 --standard DVB-S2 --ldpc-helper ldpc_tool -v -d | vlc -
 
 #recoding ofline and then later display video
-rtl_sdr  -f 397000000  -s 2400000  capture.iq 
-./leandvb  --gui  --hq  < capture.iq  > capture.ts
-ffplay capture.ts
+#rtl_sdr  -f 397000000  -s 2400000  capture.iq 
+#./leandvb  --gui  --hq  < capture.iq  > capture.ts
+#ffplay capture.ts
 
 # --drift track for Oselator drift
 # --decim N  Decimation if you over sample this could improove the S/N (Signal to noise ratio)
