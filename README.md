@@ -48,8 +48,8 @@ make leandvb-snr<br>
 ```
 If all worked ok we now need to copy the ldpc_tool in the apps directory
 ```
-cd ../src/app/<br>
-cp -R ../../test/ldpc_tool ./<br>
+cd ../src/app/
+cp -R ../../test/ldpc_tool ./
 ```
 There should now be an ldpc_tool directory in the leansdr/src/app/ directory<br>
 We are now ready to start testing.<br>
